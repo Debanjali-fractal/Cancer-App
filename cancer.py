@@ -17,7 +17,7 @@ import contextlib
 warnings.filterwarnings('ignore')
 
 # Set your Gemini API key (Make sure this is valid in Azure environment)
-os.environ["GOOGLE_API_KEY"] = os.getenv("GOOGLE_API_KEY", "your_api_key")  # Use environment variable for security
+os.environ["GOOGLE_API_KEY"] = os.getenv("GOOGLE_API_KEY", "AIzaSyBeM3p8WXFVQ6x19aJX252tpWkHm11ckXg")  # Use environment variable for security
 genai.configure(api_key=os.environ["GOOGLE_API_KEY"])
 
 # Local cache for conversation history
